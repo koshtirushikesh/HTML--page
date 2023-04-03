@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>News Artical</title>
+        <style>
+            body{
+                background-color: lightgray;
+            }
+            .header{
+                display: flex;
+                flex-flow: row wrap;
+                background-color: rgba(236, 118, 252, 0.733);
+                padding: 0px;
+                margin :5px;
+                justify-content: space-evenly;
+                word-spacing: 100px; 
+            }
+            
+            .mainContainer{
+                display: flex;
+                flex-flow: row wrap;
+            }
+            .mainContainerItem{
+                padding: 10px;
+                margin: 5px;
+                background: white;
+            }
+            .artical {
+                padding: 10px;
+                margin: 10px;
+                background: white;
+            }
+            h2,h3{  font-style: italic; font-weight: bolder; }
+            .firstArtical{ text-align: center; font-weight: bolder; }
+            .rightSideBar { 
+                padding: 5px;
+                margin: 5px;
+                background-color: rgba(236, 118, 252, 0.733);
+                text-align: center;
+            }
+            .sideBar{ flex: 1 0; }
+            .mainContainerItem{ flex: 4 0; }
+            .footer{
+                padding: 1px;
+                margin: 5px;
+                background-color: white;
+            }
+        </style>
+    </head>
+    <body class="body">
+        <header class="header"> 
+        <h4>
+            <a  href="https://classroom.google.com/w/NTg3NzI0MTkxMzYx/t/all">HOME</a>
+            <a  href="https://classroom.google.com/c/NTg3NzI0MTkxMzYx">OUR_TEAM</a>
+            <a  href="https://classroom.google.com/r/NTg3NzI0MTkxMzYx/sort-last-name">PROJECT</a>
+            <a  href="https://classroom.google.com/r/NTg3NzI0MTkxMzYx/sort-last-name">CONTACT</a>
+        </h4>
+        </header>
+        <div class="mainContainer">
+            <section class="mainContainerItem">
+                <article>
+                    <h2 class="firstArtical">First Artical</h2>
+                    <p>
+                        News is information about current events. This may be provided through many different media: word of mouth, 
+                        printing, postal systems, broadcasting, electronic communication, or through the testimony of observers and 
+                        witnesses to events. News is sometimes called "hard news" to differentiate it from soft media.
+                    </p>
+                </article>
+                <article>
+                    <h3>Second Artical</h3>
+                    <p>
+                        News is information about current events. This may be provided through many different media: word of mouth, 
+                        printing, postal systems, broadcasting, electronic communication, or through the testimony of observers and 
+                        witnesses to events. News is sometimes called "hard news" to differentiate it from soft media.
+                    </p>
+                </article>
+                <article>
+                    <h3>Third Artical</h3>
+                    <p>
+                        News is information about current events. This may be provided through many different media: word of mouth, 
+                        printing, postal systems, broadcasting, electronic communication, or through the testimony of observers and 
+                        witnesses to events. News is sometimes called "hard news" to differentiate it from soft media.
+                    </p>
+                </article>
+            </section>
+            <sideBar class="sideBar rightSideBar">
+                <div class="center">
+                    <h2>Related</h2>
+                    <li><a href="https://classroom.google.com/w/NTg3NzI0MTkxMzYx/t/all">classroom google HOME</a></li>
+                    <li><a href="https://classroom.google.com/w/NTg3NzI0MTkxMzYx/t/all">classroom google PAGE</a></li>
+                    <li><a href="https://classroom.google.com/w/NTg3NzI0MTkxMzYx/t/all">classroom google history</a></li>
+                </div>
+            </sideBar>
+        </div>
+        <div class="footer">
+            <h6 class="copyrigte">U.S. copyright law is the Copyright Act ©, codified in Title 17 of the United States Code</h6>
+        </div>   
+    </body>
+</html>
